@@ -4,12 +4,13 @@ TP1 - RAG sobre CV en PDF con Streamlit, LangChain y Groq
 
 Esta aplicación implementa un flujo de Retrieval-Augmented Generation (RAG)
 que permite:
- - Cargar un CV en PDF
+ - Cargar un CV en PDF o DOCX
  - Indexarlo en Pinecone usando embeddings de HuggingFace o FastEmbed
  - Consultar el contenido del CV mediante un LLM de Groq con contexto recuperado
 
 Requisitos (instalar):
-    pip install streamlit langchain langchain-groq langchain-community langchain-text-splitters pinecone langchain-pinecone sentence-transformers pypdf
+   - pip install streamlit langchain langchain-groq langchain-community langchain-text-splitters pinecone langchain-pinecone sentence-transformers pypdf docx2txt
+   - Verificar README.md para más detalles (el proyecto utiliza poetry)
 
 Ejecución:
     streamlit run app_rag_cv.py

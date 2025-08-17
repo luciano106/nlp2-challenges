@@ -77,3 +77,6 @@ E = FastEmbedEmbeddings(model_name='BAAI/bge-small-en-v1.5')
 print('ok', len(E.embed_query('hola mundo')))
 PY
 ```
+
+## Demo Video
+https://drive.google.com/file/d/1BGKpP7jwgRxeugEIP-qBAXzhH9lSKNc-/view?usp=sharing
